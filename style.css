@@ -1,14 +1,15 @@
-.background {
-	height:3000px;
-	width:1000px;
-	position: relative;
 
-}
 body {
 	background-image: url('images/bg.jpg');
 	background-repeat: no-repeat;
-
+	background-size: 1000px 2000px;
 }
+.all {
+	position:absolute;
+	left:175px;
+	top: 75px;
+}
+
 .headers li {
 	display:inline;
 }
@@ -26,12 +27,6 @@ img {
 	width:50px;
 }
 
-.navbar div {
-	display: inline-block;
-	background-color: red;
-	height: 30px;
-	width: 150px;
-}
 li {
 	list-style: none;
 }
@@ -45,10 +40,11 @@ li {
 	font-size: 12px;
 	text-align: center;
 	padding-top: 10px;
+	font: white;
 }
 .topimage {
 	width: 600px;
-	height: 250px;
+	height: 200px;
 	display: inline-block;
 	border: 5px solid white;
 	
@@ -59,53 +55,37 @@ li {
 	display: inline;
 	top: 75px;
 }
+
 .readmore1 {
-	height: 275px;
+	height: 200px;
 	width: 200px;
 	font-family: Arial;
 	color: black;
 	background-color: white;
-	
-}
-
-.pfont {
+	line-height: 105%;
+	border: 1px solid black;
 	font-size: 9px;
-}
-.h1 { 
-	font-size: 15px;
-	padding-top:10px;
-
-}
-.readmore {
-	font-size: 10px;
-	color:red;	
-	text-align: center;
-	display:inline-block;
+	padding-left: 5px;
 	
-}
-.h2 {
-	font-size: 8px;
 
+}
+p.pheader {
+	font-size: 15px;
+	font-family: Arial;
+	font-style: bold;
+
+}
+div.readmore1 {
+	display: inline-block;
+}
+span.redreadmore {
+	color: red;
+	padding-left: 65px;
+	font-size: 9px;
 }
 
 .center {
 	text-align: center;
-}
-.smallspace {
-	line-height:50%;
-	padding-left: 5px
-}
-.blocktext {
-	margin-left: auto;
-	padding-top: 8px;
-	margin-right: auto;
-	width: 190px;
-
-}
-
-.readmore1 {
-	display: inline-block;
-	position:relative;
 	
 }
 .facephotos img {
