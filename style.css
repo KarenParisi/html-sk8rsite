@@ -129,5 +129,71 @@ li {
 	background-color: blue;
 	position:relative;
 }
+div.boardblock {
+	width: 625px;
+	height: 300px;
+	background: white;
+
+}
+.boardlistimgs li {
+	display: inline;
+	
+}
+.boardlistimgs img {
+	height:275px;
+	padding-right: 5px;
+	margin-left: 0px;
+}
+div.innerboardblock {
+	position:absolute;
+	left: -12px;
+	
+}
+div.bottombox {
+	height: 300px;
+	width:625px;
+	border: 1px solid red;
+	background: white;
+}
+.bottomicons li {
+	display:inline;
+}
+.bottomicons img {
+	height:20px;
+	width:20px;
+}
+
+::-webkit-input-placeholder {
+	color: black;
+	font-size: 8px;
+	
+}
+input  {
+	height: 20px;
+	width: 200px;
+}
 
 
+ #message {
+	height: 50px;
+}
+#submit {
+	background-color: red;
+	width: 100px;
+	height: 25px;
+
+}
+div.submit {
+	
+	position: relative;
+	left: 105px;
+
+}
+div.contactform {
+	border: 1px solid green;
+	width:210px;
+
+}
+div .leftbottom {
+	border: 1px solid orange;
+}
