@@ -1,179 +1,319 @@
-
 body {
 	background-image: url('images/bg.jpg');
 	background-repeat: no-repeat;
-	background-size: 1000px 2000px;
-}
-.all {
-	position:absolute;
-	left:175px;
-	top: 75px;
-}
-
-.headers li {
-	display:inline;
-}
-.topheaders {
-	position: absolute;
-	right: 25px;
-	top:25px;
 
 }
-span {
-	display: inline;
-}
-img {
-	height:50px;
-	width:50px;
-}
+div.container {
+	width: 425px;
+	height:1000px;
+	margin-left:200px;
+	margin-top: 5px;
 
-li {
-	list-style: none;
 }
-.navbar div {
+div.container1 {
+	width:200px;
 	display: inline-block;
-	background-color: red;
-	height: 30px;
-	width: 150px;
-	text-align: center;
-	color: white;
-	font-size: 12px;
-	text-align: center;
-	padding-top: 10px;
-	font: white;
-}
-.topimage {
-	width: 600px;
-	height: 200px;
-	display: inline-block;
-	border: 5px solid white;
-	
-}
-.peralta {
-	width: 275px;
-	height: 150px;
-	display: inline;
-	top: 75px;
-}
-
-.readmore1 {
-	height: 200px;
-	width: 200px;
-	font-family: Arial;
-	color: black;
-	background-color: white;
-	line-height: 105%;
-	border: 1px solid black;
-	font-size: 9px;
-	padding-left: 5px;
-	
-
-}
-p.pheader {
-	font-size: 15px;
-	font-family: Arial;
-	font-style: bold;
-
-}
-div.readmore1 {
-	display: inline-block;
-}
-span.redreadmore {
-	color: red;
-	padding-left: 65px;
-	font-size: 9px;
-}
-
-.center {
-	text-align: center;
-	
-}
-.facephotos img {
-	border: 2px solid white;
-	width: 200px;
-	height:125px;
 	position: relative;
+	left: 285px;
+	top: 20px;
+	margin-bottom: 5px;
 	
 }
-#steve {
-	width: 400px;
+div.subscribe {
+	position: absolute;
+	font-family: Arial;
+	font-size: 7px;
+	color: white;
+	left:450px;
+	top: 45px;
 
 }
-#tommy {
-	height: 250px;
+.icons li {
+	display: inline-block;
+	
 }
-.facephotos {
-	height:275px;
-	width:625px;
-	border: 2px solid black;
-	background-color: blue;
-	position:relative;
+#dots {
+	color: white;
 }
-div.boardblock {
-	width: 625px;
-	height: 300px;
+.icons img {
+	height:25px;
+	width:20px;
+
+}
+.icons p {
+	font-size: 8px;
+	float: 100px;
+	
+}
+.container2 {
+	width:425px;
+	height:25px;
+	margin-bottom: 10px;
+}
+.navbarul li {
+	display: inline-block;
+	list-style: none;
+
+}
+ul.navbarul {
+	padding-left:0px;
+	margin-top: -5px;
+
+}
+div #navbox {
+	width:103px;
+	height:20px;
+	background-color: red;
+
+}
+#navbox p {
+	padding-top: 6px;
+	text-align: center;
+	font-size: 9px;
+}
+div.container3 {
+	width:417px;
+	height: 150px;
+	background-image: url('images/top-image.png');
+	background-repeat: no-repeat;
+	border: 4px solid white;
+	margin-bottom: 10px;  
+	margin-left: -2px;	
+
+}		
+.container3 img {
+	padding-top: 25px;
+	padding-left: 25px;
+
+}
+div.container4 {
+	width:425px;
+	height:175px;
+	margin-bottom: 5px
+
+}
+.readmeboxes div {
+	display:inline-block;
+	height:150px;
+	width: 117px;
+	background-color: white;
+	border: 1px solid gray;
+
+}
+ #readme {
+	font-family: Arial;
+	font-size: 8px;
+	padding: 10px; 
+
+}
+#date {
+	color:gray;
+
+}
+#redreadmore {
+	display: block;
+	color:red;
+	font-weight: bold;
+	font-size:7px;
+	text-align: center;	
+	
+}
+.container5 {
+	width:425px;
+	height:225px;
+	margin-top: -12px
+
+}
+#allboxes div{
+	width:125px;
+	height:95px;
+	display: inline-block;
+	border:3px solid white;
+
+}
+div #lance {
+	background-image: url('images/sk8er-4.png');
+	background-repeat: no-repeat;
+	margin-left:0px;
+	margin-right: 10px;
+	margin-top:10px;
+
+}
+div #rodney {
+	background-image: url('images/sk8er-3.png');
+	background-repeat: no-repeat;
+
+}
+div #tommy {
+	background-image: url('images/sk8er-1.png');
+	background-repeat: no-repeat;
+	width: 270px;
+	margin-left:0px;
+	margin-top:5px;
+	
+}
+div #steve {
+	background-image: url('images/sk8er-2.png');
+	background-repeat: no-repeat;
+	height:205px;
+	float: right;
+	margin-right: 0px;
+	margin-top: 10px;
+
+}
+.container6 {
+	width:425px;
+	height:130px;
+	background-color:white;
+	margin-top: -10px;
+	margin-bottom: 10px;
+
+}
+.boardimgs img {
+	height:125px; 
+	width:30px;	
+	margin-top: 5px;
+
+}
+.boardimgs li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 6px;
+	
+}
+#board1 {
+	margin-left: -27px;
+
+}
+div.leftbottom {
+	width:250px;
+	height: 175px;
+	padding-top:10px;
+	display: inline-block;
+
+}
+.leftbottom p {
+	font-size:8px;
+	padding-left: 10px;
+	font-family: Arial;
+	line-height: 12px;
+
+}
+#header {
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-bottom: -5px;
+	font-size: 12px;
+	font-family:Arial;	
+
+}
+div.container7 {
+	width:425px;
+	height:150px;
 	background: white;
 
 }
-.boardlistimgs li {
-	display: inline;
-	
-}
-.boardlistimgs img {
-	height:275px;
-	padding-right: 5px;
-	margin-left: 0px;
-}
-div.innerboardblock {
-	position:absolute;
-	left: -12px;
-	
-}
-div.bottombox {
-	height: 300px;
-	width:625px;
-	border: 1px solid red;
-	background: white;
+ul.bottomicons {
+	margin-left: -30px;
+
 }
 .bottomicons li {
 	display:inline;
+
+}
+::-webkit-input-placeholder {
+	color: black;
+	font-size: 9px;
+
+}
+input  {
+	height: 20px;
+	width: 150px;
+
+}
+#email {
+	margin-top: 5px;
+
+}
+#name {
+	margin-top: 5px;
+
+}
+#message {
+	height: 50px;
+	margin-top: 5px;
+	
+}
+#submit {
+	background-color: red;
+	width: 95px;
+	height: 20px;
+	margin-top: 5px;
+
+}
+div.submit {
+	position: relative;
+	left: 60px;
+
 }
 .bottomicons img {
 	height:20px;
 	width:20px;
-}
 
-::-webkit-input-placeholder {
-	color: black;
-	font-size: 8px;
+}
+ul.bottomicons{
+	margin-top: 10px;
 	
-}
-input  {
-	height: 20px;
-	width: 200px;
-}
-
-
- #message {
-	height: 50px;
-}
-#submit {
-	background-color: red;
-	width: 100px;
-	height: 25px;
-
-}
-div.submit {
-	
-	position: relative;
-	left: 105px;
-
-}
+}	
 div.contactform {
-	border: 1px solid green;
-	width:210px;
+	position: relative;
+	width:200px;
+	height:175px;
+	left:250px;
+	top: -135px;
 
 }
-div .leftbottom {
-	border: 1px solid orange;
+.container8 {
+	height:100px;
+	width:125px;
+	position: absolute;
+	top:470px;
+	left: 75px;
+
 }
+p.skateboarders  {
+	color:white;
+	font-family: Arial;
+	font-size: 10px;
+	position: absolute;
+	left:85px;
+	top: 480px;
+
+}
+div.arrowbox {
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	display: inline-block;
+	
+}
+.arrow {
+  width: 10; 
+  height: -10;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid red;
+  display: inline-block;
+  margin-left:-5px;
+ 
+}	
+
+
+
+
+
+
+
+
+
+
